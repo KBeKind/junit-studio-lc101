@@ -23,7 +23,12 @@ public class BonusBinarySearchTest {
 
 
     @Test
-    public void returnsNegativeOneForNumberNotInTheArray() {
+    public void returnsNegativeOneForNumberHigherThanNumbersInTheArray() {
         assertEquals(BonusBinarySearch.binarySearch(testArray, 9), -1);
+    }
+
+    @Test
+    public void returnsNegativeOneForNumberLowerThanNumbersInTheArray() {
+        assertEquals(BonusBinarySearch.binarySearch(testArray, 0), -1);
     }
 }
