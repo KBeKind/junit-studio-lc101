@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="" />
+    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,14 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1Snvdtr8oVEcWvMSjy8Jh12C3wW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberLowerThanNumbersInTheArray">
+  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberNotInTheArrayAboveLowestValueAndBelowHighestValue">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -36,23 +47,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BonusBinarySearchTest.findsAnExistingIntInBeginningOfTheArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit-studio-lc101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
-      <option name="METHOD_NAME" value="findsAnExistingIntInBeginningOfTheArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BonusBinarySearchTest.returnsNegativeOneForNumberHigherThanNumbersInTheArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="returnsNegativeOneForNumberHigherThanNumbersInTheArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BonusBinarySearchTest.returnsNegativeOneForNumberLowerThanNumbersInTheArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
@@ -108,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusBinarySearchTest.returnsNegativeOneForNumberNotInTheArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BonusBinarySearchTest.returnsNegativeOneForNumberNotInTheArrayAboveLowestValueAndBelowHighestValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-studio-lc101" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
-      <option name="METHOD_NAME" value="returnsNegativeOneForNumberNotInTheArray" />
+      <option name="METHOD_NAME" value="returnsNegativeOneForNumberNotInTheArrayAboveLowestValueAndBelowHighestValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -152,14 +163,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberNotInTheArrayAboveLowestValueAndBelowHighestValue" />
         <item itemvalue="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberLowerThanNumbersInTheArray" />
-        <item itemvalue="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberNotInTheArray" />
+        <item itemvalue="JUnit.BonusBinarySearchTest.returnsNegativeOneForNumberHigherThanNumbersInTheArray" />
         <item itemvalue="JUnit.BonusBinarySearchTest.returnsIndexOfSearchNumberAtTheLastIndexOfTheArray" />
         <item itemvalue="JUnit.BonusBinarySearchTest.returnsIndexOfZeroIfSearchNumberIsAtIndexZero" />
-        <item itemvalue="JUnit.BonusBinarySearchTest.findsAnExistingIntInBeginningOfTheArray" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
